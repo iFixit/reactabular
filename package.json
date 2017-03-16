@@ -16,7 +16,6 @@
     "gh-pages:deploy": "gh-pages -d gh-pages",
     "gh-pages:stats": "webpack --json --profile > stats.json",
     "publish": "lerna publish",
-    "postinstall": "node lib/post_install.js",
     "postpublish": "npm run gh-pages:build-and-deploy"
   },
   "repository": {
